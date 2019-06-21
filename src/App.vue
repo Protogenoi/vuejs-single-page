@@ -23,7 +23,7 @@
             >
               <img v-bind:src="paralaxLogo" alt="Vuetify.js" height="200">
               <h1 class="white--text mb-2 display-1 text-xs-center">ADL</h1>
-              <div class="subheading mb-3 text-xs-center">Powered by Vuetify</div>
+              <div class="subheading mb-3 text-xs-center">Michael Owen</div>
               <v-btn
                       class="blue lighten-2 mt-5"
                       dark
@@ -157,7 +157,7 @@
                                 v-on="on"
                                 class="blue lighten-2 mt-5"
                                 large
-                        >Open Dialog</v-btn>
+                        >App request</v-btn>
                     </template>
 
                     <v-card>
@@ -215,6 +215,13 @@
                                                 required
                                         ></v-select>
                                     </v-flex>
+                                        <v-flex md12>
+                                            <v-textarea
+                                            v-model="requirements"
+                                            label="Requirements"
+                                            >
+                                            </v-textarea>
+                                        </v-flex>
                                         <v-btn
                                                 :disabled="!valid"
                                                 color="success"
@@ -239,7 +246,6 @@
                                     </v-form>
                                 </v-layout>
                             </v-container>
-                            <small>*indicates required field</small>
                         </v-card-text>
                         <v-card-actions>
                             <v-spacer></v-spacer>
@@ -325,9 +331,12 @@ export default {
   data () {
     return {
       dialog: false,
+      valid: true,
       languagesSelect: null,
+      requirements: '',
       languages: ['PHP', 'Vuejs', 'Python', 'JavaScript'],
       name: '',
+      mobile: '',
       nameRules: [
         v => !!v || 'Name is required'
       ],
@@ -346,7 +355,7 @@ export default {
         '11 - 14',
         '15+'
       ],
-      title: 'ADL with Vuejs',
+      title: 'ADL',
       paralaxLogo: require('./assets/vuetify.png'),
       paralax: require('./assets/hero.jpeg'),
       paralaxTwo: require('./assets/section.jpg'),
