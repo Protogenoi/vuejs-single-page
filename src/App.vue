@@ -266,9 +266,7 @@
                     <div class="headline">Company info</div>
                   </v-card-title>
                   <v-card-text>
-                    Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
-                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                    Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
+                    ADL
                   </v-card-text>
                 </v-card>
               </v-flex>
@@ -278,7 +276,7 @@
                     <div class="headline">Contact us</div>
                   </v-card-title>
                   <v-card-text>
-                    Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
+                    Contact me below
                   </v-card-text>
                   <v-list class="transparent">
                     <v-list-tile>
