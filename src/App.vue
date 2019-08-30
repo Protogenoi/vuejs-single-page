@@ -47,7 +47,7 @@
               <div class="text-xs-center">
                 <h2 class="headline">The best way to start developing</h2>
                 <span class="subheading">
-                Cras facilisis mi vitae nunc
+                From the latest programming frameworks
               </span>
               </div>
             </v-flex>
